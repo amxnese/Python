@@ -3015,6 +3015,3 @@
 # t = [x,f]
 # ziped = [*(itertools.zip_longest(*t))]
 # print(ziped)
-
-
-
