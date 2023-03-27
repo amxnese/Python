@@ -819,8 +819,8 @@
 # MyBirthday = datetime.datetime(2002,4,6)
 # print(MyBirthday)
 # print(MyBirthday.strftime("%B"))
-# print(MyBirthday.strftime("%a"))   this is the same
-# print(f"{MyBirthday:%a}")              as this
+# print(MyBirthday.strftime("%a"))       #this is the same
+# print(f"{MyBirthday:%a}")              #as this
 # print(MyBirthday.strftime("%A"))
 # print(MyBirthday.strftime("%w"))
 # print(MyBirthday.strftime("%d"))
@@ -3010,9 +3010,9 @@
 #     return(Rev)
 
 # import itertools
-# x = [2,2,2]
-# f = ["f","f","s"]
-# t = [x,f]
+# x = [1,2,3]
+# y = ["one","two","three"]
+# z = [x,y]
 # ziped = [*(itertools.zip_longest(*t))]
 # print(ziped)
 
