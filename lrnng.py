@@ -5,5 +5,4 @@
 # mymodule.say_hi("amine")
 # mymodule.sorry("amine")
 # print(dir(mymodule))
-
 import one
