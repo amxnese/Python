@@ -742,36 +742,6 @@
 
 # from mymodule import aaa as a
 
-# import termcolor
-# import pyfiglet
-# import colorama
-# print(dir(pyfiglet))
-# print(pyfiglet.figlet_format((termcolor.colored("Amine", color="red"))))
-# print(termcolor.colored(pyfiglet.figlet_format("Elzero"), color="yellow"))
-# print(termcolor.colored("Elzero", color="yellow"))
-# print(pyfiglet.figlet_format("CR7"))
-# print(termcolor.colored(pyfiglet.figlet_format("Elzero"),color="yellow"))
-
-# import pyfiglet
-# import termcolor
-# import colorama
-# colorama.init()
-# print(termcolor.colored("amine", color="yellow"))
-
-# print("="*100)
-# import sys
-# print(sys.path)
-
-# import termcolor
-# import pyfiglet
-# import colorama
-# colorama.init(autoreset=True)
-# print(termcolor.colored(pyfiglet.figlet_format("amine"),color="yellow"))
-# import colorama
-# from colorama import Fore, Back, Style
-# colorama.init()
-# print(f"{Fore.RED}{Back.GREEN}{Style.BRIGHT} i'm red backgrounded green")
-
 # from random import randint
 # print(randint(0,10))
 
@@ -2291,12 +2261,6 @@
 # member_three = member()
 # print(member_one.__class__)
 
-# import pyfiglet
-# import termcolor
-# import colorama
-# colorama.init()
-# print(pyfiglet.figlet_format("amine"))
-# print(termcolor.colored(pyfiglet.figlet_format("amine"), "red"))
 
 # class object():
 #     def __init__(self):
@@ -2541,14 +2505,6 @@
 # print(two.has_oop())
 # print(three.has_oop())
 # print(four.has_oop())
-
-# import pyfiglet
-# import termcolor
-# import colorama
-# colorama.init()
-# print(termcolor.colored("amine","red"))
-# print(pyfiglet.figlet_format("amine"))
-# print(termcolor.colored(pyfiglet.figlet_format("amine"),"yellow"))
 
 # from abc import ABCMeta, abstractmethod
 # class name(metaclass=ABCMeta):
