@@ -511,59 +511,6 @@
 # print(first_name)
 # print(last_name)
 
-'with def'
-# def formattxt(text):
-#     return (f"- {text} -")
-# MyList = ["amine","harry","fury","mohamed"]
-# myformattxt = map(formattxt,MyList)
-'with lambda'
-# for line in map(lambda text : f"- { text} -",MyList):
-#     print(line)
-
-# def say_hi(name):
-#     return (f"hello {name} its nice seeing you here ")
-# friends = ["amine", "hoda", "hicham" ,"samy"]
-# welcome = map(say_hi, friends)
-# for line in welcome:
-#     print(line)
-
-# def checknum(num):
-#     if num == 63:
-#         return True
-# nums = [4,63,6,24,86,12,0]
-# checknums = filter(checknum, nums)
-# for num in checknums:
-#     print(num)
-#
-# items = [
-#     ("product1", 12),
-#     ("product2", 15),
-#     ("product3", 41)
-# ]
-# list = []
-# for item in items:
-#     list.append(item[1])
-# print(list)
-# prices = list(map(lambda item: item[1],items))
-# for item in x:
-#     print(item)
-# print(prices)
-
-# def add7(x):
-#     return x+7
-# nums = [1,2,3,4,5,6,7,8,9]
-# a = list(filter(add7,nums))
-# print(a)
-
-# def isOdd(num1):
-#     return num1%2 != 0
-# mylist = [1,2,3,4,5,6,7,8,9]
-# b = list(filter(isOdd,mylist))
-# def add7(num2):
-#     return num2 + 7
-# c = list(map(add7,b))
-# print(c)
-
 # buddies = [("amine", 18),
 #            ("hicham", 20),
 #            ("khalil", 44),
@@ -612,35 +559,9 @@
 # for friend in filter(lambda name : name.startswith("a"), friends):
 #     print(friend)
 
-# from functools import reduce
-# def fun(num1, num2):
-#     return num1 + num2
-# NumList = [36,67,62,66,4,44]
-# x = reduce(fun,NumList)
-# print(x)
 
-# from functools import reduce
-# letters = ["H", "E", "L", "L", "O"]
-# for letter in letters:
-#     print(letter, end="")
-# def sumall(let1 ,let2):
-#     return let1 + let2
-# result = reduce(sumall,letters)
-# print(result)
 
-# factorial = [5,4,3,2,1]
-# import functools
-# def fac(num1,num2):
-#     return num1*num2
-# result = functools.reduce(fac,factorial)
-# print(result)
 
-# list = [1,2,3,4,5,6,7,8,9,10]
-# def bla(num):
-#     return num**num
-# result = map(bla,list)
-# for i in result:
-#     print(i)
 
 # MySkills = ["html", "css", "java", "python"]
 # MySkillsCounter = enumerate(MySkills, 1)
@@ -686,21 +607,6 @@
 #         f = f*i
 #     return f
 # print(fact(3))
-
-# def addition(name):
-#     return f"{name}us"
-# names = ["amin", "uran", "among ", "th"]
-# result = map(addition, names)
-# for i in result:
-#     print(i)
-# from functools import reduce
-
-
-# list_of_nums =[35,52,5,2,5,62,6,65]
-# def multiplier(x, y):
-#     return x*y
-# x = reduce(multiplier, list_of_nums)
-# print(x)
 
 # list_of_nums =[35,52,5,2,5,62,6,0,"",65]
 # x = filter(None, list_of_nums)
@@ -777,13 +683,6 @@
 # import datetime
 # birthday = datetime.datetime(2002,4,6)
 # print(birthday.strftime)
-
-# from functools import reduce
-# def sumall(num1, num2):
-#     return num1 * num2
-# list = [43,52,64,23,5,]
-# result = reduce(sumall,list)
-# print(result)
 
 # import datetime
 # MyBirthday = datetime.datetime(2002,4,6)
@@ -1078,14 +977,6 @@
 # print(next(x),end="==>")
 # print(next(x),end="==>")
 # print(next(x))
-
-# from functools import reduce
-# list = [4,35,3,277,4]
-# def sumall(num1,num2):
-#     return num1 + num2
-# x = reduce(sumall,list)
-# print(x)
-
 
 # import sqlite3
 # db = sqlite3.connect("app.db")
@@ -1784,12 +1675,6 @@
 
 # def solution(number):
 #     return sum([i for i in range(number) if i % 3 == 0 or i % 5 == 0])
-# factorial = [6,5,4,3,2,1]
-# from functools import reduce
-# def fac(num1,num2):
-#     return num1*num2
-# result = reduce(fac,factorial)
-# print(result)
 
 # def zeros(n):
 #     x = n/5
@@ -2173,9 +2058,6 @@
 # lst2 = [i*i for i in lst if i%2 == 0]
 # print(lst2)
 
-# lst3 = list(map(lambda x:x*x,list(filter(lambda x:x%2==0,lst))))
-# print(lst3)
-
 # lst = [(i,n) for i in "abcd" for n in range(4)]
 # print(lst)
 
@@ -2267,13 +2149,6 @@
 #         print("hello there i love python")
 # object()
 
-# def dec(name):
-#     return (f"==({name})==")
-# list = ["samy", "danzo", "steve", "coman"]
-# x = map(dec,list)
-# for line in x:
-#     print(line)
-
 # class Member():
 #     def __init__(self):
 #         self.name = "amine"
@@ -2283,16 +2158,6 @@
 # member_two = Member()
 # member_three = Member()
 # print(member_one,member_two,member_three)
-
-# friends = ["amine","samy","kiloa","housam"]
-# def dec(name):
-#     if name == "amine" or name == "kiloa":
-#         return (f"{name} is awesome")
-#     else:
-#         return (f"{name} is the name")
-# precise = map(dec,friends)
-# for line in precise:
-#     print(line)
 
 # class Car():
 #     def __init__(self):
